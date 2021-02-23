@@ -1,0 +1,107 @@
+body {
+  background-color: black;
+  color:rgb(89,92,96);
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  max-width: 50rem;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+  font-weight: 400;
+}
+
+}
+.switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+}
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+
+.dark,
+.dark * {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
+.portfolio-container h1 {
+  font-family: 'Pirata One', thin, cursive;
+  font-size: 75px;
+  color: black;
+  text-align: center;
+    text-shadow: 0 0 2px white;
+}
+
+
+
+.header-text {
+  font-family: 'Pirata One', cursive;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.portfolio-container {
+  margin: auto; 
+  width: 500px;
+  color: white;
+  grid-gap: 30px;
+  padding: 15px;
+  grid-template-columns: 250px 250px 250px;
+}
+
+.portfolio-item {
+  align-items: center;
+    background-size: cover;
+   border-radius: 20px;
+  font-family: 'Lato', Arial, sans-serif;
+  font-size: 24px;  
+  font-weight: none;
+  height: 200px;
+  justify-content: center;
+  margin: 15px;
+  padding: 15px;
+
+}
+
+img {
+  display: grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.button-fade {
+  background-color: black;
+  color: white;
+  transition: 2s ease-in-out;
+  font-family: 'Pirata One', cursive;
+  font-weight: bold;
+  margin: 50px auto;
+  padding: 10px;
+  font-size: 25px;
+  width: 300px;
+  text-align: center;
+  border: 1px solid rgb(89,92,96);;
+}
+
+.button-fade:hover {
+ background-color:red;
+ color:white; 
+}
+
+
+@media(max-width: 100%) {
+  body {
+    background: white;
+  }
+}
